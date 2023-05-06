@@ -61,6 +61,6 @@ class GTSRB_CNN(nn.Module):
         if self.domain_adaptation:
             rev_feature = grad_rev_layer.apply(feature, alpha)
             domain_output = self.domain_classifier(rev_feature)
-            return class_output, domain_output
+            return feature, class_output, domain_output
 
-        return class_output
+        return feature, class_output
