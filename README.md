@@ -20,8 +20,8 @@ All the code is in jupyter notebooks where we have created a separate notebook f
 9. `office_aw.ipynb` - Contains code for the Office-31 dataset experiments where Amazon is the source and Webcam is the target. 
 10. `office_dw.ipynb` - Contains code for the Office-31 dataset experiments where DSLR is the source and Webcam is the target. 
 11. `office_wd.ipynb` - Contains code for the Office-31 dataset experiments where Webcam is the source and DSLR is the target. 
-12. 'mnist_mnistm(updated).ipynb' - Contains code for the Mnist dataset as source and Mnist_M dataset as target.
-13. 'mnist_mnist.ipynb" - Contains another attempt for the Mnist and Mnist_M dataset.
+12.`mnist_mnistm(updated).ipynb`- Contains code for the Mnist dataset as source and Mnist_M dataset as target.
+
 
 ## Datasets
 The MNIST and GTSRB datasets were directly taken from torchvision. The rest of the datasets have been uploaded to a drive (link given below).
